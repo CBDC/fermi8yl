@@ -1,0 +1,54 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - {name: colname, datatype: string}
+# - {name: description, datatype: string}
+# - {name: unit, datatype: string}
+# - {name: ucd, datatype: string}
+# - {name: dtype, datatype: string}
+# - {name: 'null', datatype: string}
+# meta: !!omap
+# - {description: null}
+# schema: astropy-2.0
+colname               description  unit  ucd  dtype  null
+Source_Name           ""           ""    ""   |S18   ""
+RAJ2000               ""           ""    ""   >f4    ""
+DEJ2000               ""           ""    ""   >f4    ""
+GLON                  ""           ""    ""   >f4    ""
+GLAT                  ""           ""    ""   >f4    ""
+Conf_95_SemiMajor     ""           ""    ""   >f4    ""
+Conf_95_SemiMinor     ""           ""    ""   >f4    ""
+Conf_95_PosAng        ""           ""    ""   >f4    ""
+ROI_num               ""           ""    ""   >i2    ""
+Extended_Source_Name  ""           ""    ""   |S18   ""
+Signif_Avg            ""           ""    ""   >f4    ""
+Pivot_Energy          ""           ""    ""   >f4    ""
+Flux_Density          ""           ""    ""   >f4    ""
+Unc_Flux_Density      ""           ""    ""   >f4    ""
+Flux1000              ""           ""    ""   >f4    ""
+Unc_Flux1000          ""           ""    ""   >f4    ""
+Energy_Flux100        ""           ""    ""   >f4    ""
+Unc_Energy_Flux100    ""           ""    ""   >f4    ""
+SpectrumType          ""           ""    ""   |S17   ""
+PL_Index              ""           ""    ""   >f4    ""
+Unc_PL_Index          ""           ""    ""   >f4    ""
+LP_SigCurv            ""           ""    ""   >f4    ""
+LP_Index              ""           ""    ""   >f4    ""
+Unc_LP_Index          ""           ""    ""   >f4    ""
+LP_beta               ""           ""    ""   >f4    ""
+Unc_LP_beta           ""           ""    ""   >f4    ""
+PLEC_SigCurv          ""           ""    ""   >f4    ""
+PLEC_Index            ""           ""    ""   >f4    ""
+Unc_PLEC_Index        ""           ""    ""   >f4    ""
+PLEC_Expfactor        ""           ""    ""   >f4    ""
+Unc_PLEC_Expfactor    ""           ""    ""   >f4    ""
+PLEC_Exp_Index        ""           ""    ""   >f4    ""
+Unc_PLEC_Exp_Index    ""           ""    ""   >f4    ""
+Npred                 ""           ""    ""   >f4    ""
+ASSOC_GAM             ""           ""    ""   |S18   ""
+TEVCAT_FLAG           ""           ""    ""   |S1    ""
+ASSOC_TEV             ""           ""    ""   |S24   ""
+CLASS                 ""           ""    ""   |S7    ""
+ASSOC1                ""           ""    ""   |S20   ""
+ASSOC2                ""           ""    ""   |S26   ""
+ASSOC_PROB_BAY        ""           ""    ""   >f4    ""
